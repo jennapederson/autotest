@@ -1,0 +1,17 @@
+2011-01-06 23:02:52,713 WARN  [DefaultSoapUICore] Missing folder [/Users/jennapederson/Documents/dev/autotest/./ext] for external libraries
+2011-01-06 23:02:52,899 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/jennapederson/soapui-settings.xml]
+2011-01-06 23:02:53,873 INFO  [WsdlProject] Loaded project from [file:/Users/jennapederson/Documents/dev/autotest/src/test/resources/soapui/Notifo-soapui-project.xml]
+2011-01-06 23:02:54,178 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [Notifo]
+2011-01-06 23:02:54,180 INFO  [SoapUITestCaseRunner] Running soapUI suite [notifications TestSuite], runType = SEQUENTIAL
+2011-01-06 23:02:54,230 INFO  [SoapUITestCaseRunner] Running soapUI testcase [subscribe_user TestCase]
+2011-01-06 23:02:54,230 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2011-01-06 23:02:55,593 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2011-01-06 23:02:55,596 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [subscribe_user TestCase], time taken: 526ms, status: FINISHED
+2011-01-06 23:02:55,597 INFO  [SoapUITestCaseRunner] Running soapUI testcase [send_notification TestCase]
+2011-01-06 23:02:55,597 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2011-01-06 23:02:55,829 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2011-01-06 23:02:55,829 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status FAILED
+2011-01-06 23:02:55,829 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response contains token ["status":"error"]
+2011-01-06 23:02:55,829 ERROR [SoapUITestCaseRunner] Request 1 failed, exporting to [/Users/jennapederson/Documents/dev/autotest/target/soapui/notifications_TestSuite-sendnotification_TestCase-Request_1-0-FAILED.txt]
+2011-01-06 23:02:55,833 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [send_notification TestCase], time taken: 219ms, status: FAILED
+2011-01-06 23:02:55,833 INFO  [SoapUITestCaseRunner] soapUI suite [notifications TestSuite] finished in 1653ms
