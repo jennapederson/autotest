@@ -27,7 +27,7 @@
 	  <artifactId>maven-soapui-plugin</artifactId>
 	  <version>3.6.2-SNAPSHOT</version>
 	  <configuration>
-	    <projectFile>${basedir}/src/test/resources/soapui/Notifo-soapui-project.xml</projectFile>
+	    <projectFile>${basedir}/src/test/resources/soapui/mapit-soapui-project.xml</projectFile>
 	    <outputFolder>${basedir}/target/soapui</outputFolder>
 	    <junitReport>true</junitReport>
 	  </configuration>
