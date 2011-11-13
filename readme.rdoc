@@ -1,0 +1,13 @@
+=Autotest
+
+==Background
+
+
+== Installation
+
+Set up as a Maven project. To run the tests:
+
+mvn test
+
+= License:
+
