@@ -1,7 +1,4 @@
-=Autotest
-
-==Background
-
+Example Maven project for running SoapUI tests using the maven-soapui-plugin.
 
 == Installation
 
@@ -9,5 +6,4 @@ Set up as a Maven project. To run the tests:
 
 mvn test
 
-= License:
 
